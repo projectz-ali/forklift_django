@@ -1,0 +1,43 @@
+.main_tag .main_header {
+  background-color: #eaebf3;
+}
+
+.section_1 {
+  background-color: #0591e2;
+  padding: 15px;
+}
+
+.icon_div .icon_left {
+  color: #fff;
+}
+
+.icon_div_data small {
+  color: #fff;
+}
+
+.fourth_row {
+  height: auto;
+}
+
+.card .card_body_custom {
+  background-color: #0591e2;
+  color: #fff;
+}
+
+.container .five_row {
+  background-color: #eaebf3;
+  height: auto;
+  text-align: center;
+}
+
+.main_btn ._fa_plus {
+  background-color: #0591e2;
+  color: #fff;
+  height: 39px;
+  width: 39px;
+  border-radius: 20px;
+  margin-top: -3px;
+  padding: 13px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

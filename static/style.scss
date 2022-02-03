@@ -1,0 +1,86 @@
+$black_color: lightgray;
+$hundread_persent_height : 100%;
+$background: #fff;
+$first_row_color: #eaebf3;
+$same_color:#0591e2;
+$white:#fff;
+// position: relative;
+$position_relitive : relative;
+$position_absolute : absolute;
+$right_11px : 11px;
+$top_19px : 19px;
+//text_center
+$textcenter : center;
+// $same_color : #0591e2;
+$row_4:#d8d8d8;
+$auto_height : auto;
+$background_five:#eaebf3;
+
+$custom_height : auto;
+
+$height_39px:39px;
+$width_39px : 39px;
+$padding_13px : 13px;
+$top_margin : -3px;
+$cursor : pointer;
+$padding_15px:15px;
+
+$border_radius:20px;
+// .main_div{
+    // background-color: $black_color;
+    // margin-left: auto;
+    // margin-right: auto;
+    // max-width: 768px;
+    // height: $hundread_persent_height;
+    // width: 100%;
+// }
+.main_tag .main_header{
+    background-color: $first_row_color;
+}
+// .container .second_row_background{
+//    background-color: $same_color;
+// }
+
+.section_1{
+background-color: $same_color;
+padding: $padding_15px;
+}
+
+.icon_div .icon_left{
+    color: $white;
+}
+.icon_div_data small{
+    color: $white;
+}
+// #mycontainer .third_row{
+//     position: $position_relitive;
+// }
+// #mycontainer .third_row .button_div{
+//     position: $position_absolute;
+//     right: $right_11px;
+//     top: $top_19px;
+// }
+.fourth_row{
+    height: $custom_height;
+}
+.card .card_body_custom{
+    background-color: $same_color;
+    color: $white;
+}
+.container .five_row{
+    background-color: $background_five;
+    height: $auto_height;
+    text-align: $textcenter;
+}
+
+.main_btn ._fa_plus{
+    background-color: $same_color;
+    color: $white;
+    height: $height_39px;
+    width: $width_39px;
+    border-radius: $border_radius;
+    margin-top: $top_margin;
+    padding: $padding_13px;
+    cursor: $cursor;
+
+}
